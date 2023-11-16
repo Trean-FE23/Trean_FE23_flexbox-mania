@@ -14,7 +14,6 @@
     width: 100px;
 }
 
-
 body {
     font-family: 'Ubuntu';
     font-size: 22px;
@@ -24,7 +23,19 @@ body {
 
 header {
     background-color: #333333;
+    height: 32rem;
+    width: 100%;
     color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 150px;  
+}
+
+button {
+    border-radius: 50px;
+    padding: 12px 22px;
+    border-style: none;
 }
 
 footer {
