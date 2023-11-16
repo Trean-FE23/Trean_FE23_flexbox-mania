@@ -1,5 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.big-card img {
+    height: 100px;
+    width: 100px;
+}
+
+.small-card img {
+    height: 100px;
+    width: 100px;
+}
+
+
 body {
     font-family: 'Ubuntu';
     font-size: 22px;
-    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    background-color: #333333;
+    color: white;
+}
+
+footer {
+
 }
