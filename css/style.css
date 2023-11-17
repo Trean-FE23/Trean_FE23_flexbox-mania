@@ -27,13 +27,18 @@ body {
     font-size: 13px;
 }
 
+.nav-container ul {
+    display: flex;
+}
+
 .nav-container li {
     list-style: none;
     padding: 1rem;
 }
 
-.nav-container ul {
-    display: flex;
+.nav-container a {
+    text-decoration: none;
+    color: black;
 }
 
 .logo {
