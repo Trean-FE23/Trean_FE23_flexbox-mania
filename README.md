@@ -1,10 +1,9 @@
 Gruppuppgift Trean av:
 Ellika Larsson, Marina Rosenstiel, Winnie Huynh, Troj Andersen
 
+---
 
 INFORMATION KRING INLÄMNING
-
----
 
 Flexbox Mania
 En webbplats byggd med HTML5 & CSS3, fokus ligger i att lösa designen med flexbox.
@@ -12,10 +11,9 @@ En webbplats byggd med HTML5 & CSS3, fokus ligger i att lösa designen med flexb
 Skiss
 https://www.figma.com/file/IPOabgetjLDk4j1tR4pDLd/Component-Exercise?type=design&node-id=0-1&mode=design&t=fqd1gCrRwrS17kF4-0
 
+---
 
 BETYGSKRITERIER
-
----
 
 Godkänt
 Att det ser ut enligt mockup. Viss variation i färger etc är okej.
