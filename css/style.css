@@ -95,7 +95,9 @@ footer {
     background: #4F4F4F;
     color: white;
     display:flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
+    height: 35vh;
+    padding-top: 10vh;
 }
 #about-us {
     width:15%;
@@ -115,9 +117,14 @@ footer {
 }
 #social-media {
     font-size: 1rem;
+    
 }
 .footer-h2 {
     margin-bottom: 1rem;
+}
+.social-icons {
+    display:flex;
+    justify-content: space-between;
 }
 
 
