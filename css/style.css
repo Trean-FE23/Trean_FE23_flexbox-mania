@@ -102,10 +102,16 @@ footer {
     font-size: 1rem;
  
 }
-#footer-nav { 
+.footer-nav { 
     display:flex;
     flex-direction: column;
     font-size: 1rem;
+    
+}
+.footer-nav a {
+    text-decoration: none;
+    color: white;
+    line-height: 3rem;
 }
 #social-media {
     font-size: 1rem;
@@ -133,5 +139,6 @@ footer {
 
     .nav-links {
         display: none;
+        text-decoration: none;
     }
 }
