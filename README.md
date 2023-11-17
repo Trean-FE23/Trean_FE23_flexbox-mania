@@ -1,24 +1,31 @@
-Gruppuppgift Trean: Ellika Larsson, Marina Rosenstiel, Winnie Huynh, Troj Andersen
+Gruppuppgift Trean av:
+Ellika Larsson, Marina Rosenstiel, Winnie Huynh, Troj Andersen
+
 
 INFORMATION KRING INLÄMNING
 
-flexbox-mania
+---
+
+Flexbox Mania
 En webbplats byggd med HTML5 & CSS3, fokus ligger i att lösa designen med flexbox.
 
-UI
-Skiss hittar du [här]https://www.figma.com/file/zy3VW5pAiizLkBRnhtiuC3/JS-%2F-Solaris?type=design&mode=design&t=PjbrROQIRGIrPfsO-0).
+Skiss
+https://www.figma.com/file/IPOabgetjLDk4j1tR4pDLd/Component-Exercise?type=design&node-id=0-1&mode=design&t=fqd1gCrRwrS17kF4-0
 
-Betygskriterier
+
+BETYGSKRITERIER
+
+---
 
 Godkänt
 Att det ser ut enligt mockup. Viss variation i färger etc är okej.
 Att du använder dig av flexbox för layout
 Vettiga namn på era html attribut för att nå CSS etc på engelska.
 
-Väl godkänt
+Väl Godkänt
 Allt i godkänt.
 Att din CSS är återanvändbar och har vettiga namn.
-Att du använder dig av HTML Semantik
+Att du använder dig av HTML Semantik.
 
 Inlämning
 Inlämning sker senast 24 nov 23.59 via en länk till ditt githubrepo med namngivning på detta sätt: namn_klassår_projektnamn på Azomo.
