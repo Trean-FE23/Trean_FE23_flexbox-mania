@@ -21,15 +21,42 @@ body {
     height: 100vh;
 }
 
+.nav-container {
+    padding-right: 20rem;
+    padding-left: 20rem;
+    font-size: 13px;
+}
+
+.nav-container li {
+    list-style: none;
+    padding: 1rem;
+}
+
+.nav-container ul {
+    display: flex;
+}
+
+.logo {
+    flex: 1;
+}
+
+nav img {
+    width: 2rem;
+    height: 1rem;
+}
+
 header {
     background-color: #333333;
-    height: 32rem;
+    height: 26rem;
     width: 100%;
     color: white;
-    font-family: 'Ubuntu', sans-serif;
     font-size: 2rem;
     text-align: center;
-    padding-top: 150px;  
+}
+
+h1 {
+    padding-top: 160px;
+    padding-bottom: 50px;
 }
 
 button {
