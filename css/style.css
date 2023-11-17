@@ -62,7 +62,8 @@ h1 {
     padding-bottom: 50px;
 }
 
-
+p {
+    line-height: 1.7rem; 
 }
 button {
     border-radius: 50px;
