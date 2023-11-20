@@ -163,4 +163,9 @@ footer {
         display: none;
         text-decoration: none;
     }
+
+    .row1, .row2 {
+        display: flex;
+        flex-direction: column;
+    }
 }
