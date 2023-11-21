@@ -13,8 +13,8 @@ body {
 /* Nav & Header */
 
 .nav-container {
-    padding-right: 20rem;
-    padding-left: 20rem;
+    padding-right: 10vw;
+    padding-left: 10vw;
     font-size: 13px;
 }
 
@@ -71,6 +71,10 @@ button {
 
 /* Main section */
 
+main {
+    margin: 5rem 0;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -80,32 +84,37 @@ button {
 
 .row {
     display: flex;
+    flex: 1;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    border-bottom: 0.1rem solid gray;
     padding-bottom: 5rem;
+    border-bottom: 0.1rem solid gray;
     margin: 1rem;
 }
 
 .card img {
-    max-width: 100%;
+    max-width: auto;
+    max-height: 33vh;
+}
+
+.card-small {
     flex: 1;
+    
 }
 
-.card-big img {
+.card-big {
     flex: 2;
 }
 
-.card-big img {
-    flex: 2;
+.card h2, p {
+    margin-top: 1rem;
 }
 
 .card p {
     font-size: 1rem;
-    margin-top: 10px;
 }
 
 .batman-logo {
@@ -113,6 +122,7 @@ button {
     background-color: #c4c4c4;
     width: 5rem;
     height: 5rem;
+    margin-top: 6rem;
 }
 
 blockquote {
@@ -121,6 +131,19 @@ blockquote {
     align-items: center;
     gap: 20px;
     font-style: italic;
+    font-size: 32px;
+}
+
+/*Holy Smokes Batman */
+.thin { 
+    font-weight:lighter;
+    white-space: nowrap;
+}
+
+/* Robin */
+.bold {
+    font-weight: bold;
+    font-style: normal;
 }
 
 /* Footer */
@@ -129,12 +152,17 @@ footer {
     background: #4F4F4F;
     color: white;
     display:flex;
-    justify-content:space-between;;
-
-    height: 35vh;
-    padding-top: 10vh;
+    justify-content:start;
+    height: 30vh;
+    padding: 4.438rem 0 0 10vw;
+    padding-right: 18vw;
 }
 
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 #about-us {
     max-width:312px;
     font-size: 1rem;
@@ -166,11 +194,7 @@ footer {
     gap: 30px;
 }
 
-.footer-content {
-    
-    width: 80vh;
-    margin-inline: auto;
-}
+
 
 /* Mediaquery for mobilephone */
 
@@ -197,13 +221,18 @@ footer {
     .row {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+    }
+
+    blockquote {
+        font-size: 25px;
     }
 
     .footer-nav {
         display: none;
     }
-    
-    footer {
+  
+    .footer-content {
         flex-wrap: wrap;
     }
 }
