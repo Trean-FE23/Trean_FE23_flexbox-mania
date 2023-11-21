@@ -10,10 +10,7 @@ body {
     width: 100vw;
 }
 
-.card img {
-    max-width: 80%;
-    height: auto;
-}
+/* Nav & Header */
 
 .nav-container {
     padding-right: 20rem;
@@ -65,54 +62,50 @@ h1 {
 p {
     line-height: 1.7rem; 
 }
+
 button {
     border-radius: 50px;
     padding: 12px 22px;
     border-style: none;
 }
 
+/* Main section */
+
 .wrapper {
-    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 80vw;
     margin-inline: auto;
 }
 
-.row1 {
+.row {
     display: flex;
-    margin: 1rem 0;
 }
 
-.row1 .card {
+.card {
     display: flex;
     flex-direction: column;
+    border-bottom: 0.1rem solid gray;
+    padding-bottom: 5rem;
+    margin: 1rem;
+}
+
+.card img {
+    max-width: 100%;
     flex: 1;
 }
 
-.row1 .card-big {
+.card-big img {
     flex: 2;
 }
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.row2 {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
+.card-big img {
+    flex: 2;
 }
 
 .card p {
     font-size: 1rem;
     margin-top: 10px;
-}
-
-.row3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
 }
 
 .batman-logo {
@@ -122,18 +115,30 @@ button {
     height: 5rem;
 }
 
+blockquote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-style: italic;
+}
+
+/* Footer */
+
 footer {
     background: #4F4F4F;
     color: white;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:space-between;;
+
     height: 35vh;
     padding-top: 10vh;
 }
+
 #about-us {
-    width:15%;
+    max-width:312px;
     font-size: 1rem;
- 
+    
 }
 .footer-nav { 
     display:flex;
@@ -146,17 +151,28 @@ footer {
     color: white;
     line-height: 3rem;
 }
+
 #social-media {
     font-size: 1rem;
     
 }
 .footer-h2 {
     margin-bottom: 1rem;
+    
 }
 .social-icons {
     display:flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 30px;
 }
+
+.footer-content {
+    
+    width: 80vh;
+    margin-inline: auto;
+}
+
+/* Mediaquery for mobilephone */
 
 @media (max-width: 600px) {
     .nav-container { 
@@ -178,8 +194,16 @@ footer {
         text-decoration: none;
     }
 
-    .row1, .row2 {
+    .row {
         display: flex;
         flex-direction: column;
+    }
+
+    .footer-nav {
+        display: none;
+    }
+    
+    footer {
+        flex-wrap: wrap;
     }
 }
