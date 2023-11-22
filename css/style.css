@@ -8,8 +8,16 @@ body {
     font-family: 'Ubuntu';
     font-size: 22px;
     width: 100vw;
+    /* max-width: 1400px; */
+    margin-inline: auto;
+    /* margin: 0;
+    padding: 0; */
 }
 
+.page-container {
+    max-width: 4040pxx;
+    margin: 0 auto;
+}
 /* Nav & Header */
 
 .nav-container {
@@ -71,18 +79,15 @@ button {
 
 /* Main section */
 
-main {
-    margin: 5rem 0;
-}
-
 .wrapper {
+    margin: 5rem 0;
     display: flex;
     flex-direction: column;
     max-width: 80vw;
     margin-inline: auto;
 }
 
-.row {
+.wrapper-container {
     display: flex;
     flex: 1;
 }
@@ -95,37 +100,31 @@ main {
     margin: 1rem;
 }
 
-.card img {
+.card__image {
     max-width: auto;
     max-height: 33vh;
 }
 
-.card-small {
+.card--small {
     flex: 1;
-    
 }
 
-.card-big {
+.card--big {
     flex: 2;
 }
 
-.card h2, p {
+.card__title {
     margin-top: 1rem;
 }
 
-.card p {
+.card__body {
+    margin-top: 1rem;
     font-size: 1rem;
 }
 
-.batman-logo {
-    border-radius: 50%;
-    background-color: #c4c4c4;
-    width: 5rem;
-    height: 5rem;
-    margin-top: 6rem;
-}
+/* Blockquote for Batman */
 
-blockquote {
+.blockquote {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -134,14 +133,20 @@ blockquote {
     font-size: 32px;
 }
 
-/*Holy Smokes Batman */
-.thin { 
-    font-weight:lighter;
+.blockquote__logo {
+    border-radius: 50%;
+    background-color: #c4c4c4;
+    width: 5rem;
+    height: 5rem;
+    margin-top: 6rem;
+}
+
+.blockquote__title { 
+    font-weight: lighter;
     white-space: nowrap;
 }
 
-/* Robin */
-.bold {
+.blockquote__body {
     font-weight: bold;
     font-style: normal;
 }
@@ -224,7 +229,7 @@ footer {
         justify-content: center;
     }
 
-    blockquote {
+    .blockquote {
         font-size: 25px;
     }
 

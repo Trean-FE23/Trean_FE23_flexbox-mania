@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
-<body> 
+<body>  
     <nav class="nav-container">
         <ul>
             <li class="nav-container__logo"> <img src="assets/zocom.png" alt="ZoCom"></li>
@@ -23,43 +23,53 @@
         <h1 class="banner__text">Everything is designed</h1>
         <button class="banner__button">pretty cool</button>
     </header>
-    <main>
-        <section class="wrapper">
-            <div class="row">
-                <article class="card card-big">
-                    <img src="assets/smallcard.jpg" alt="">
-                    <h2>card title</h2>
-                    <p>I'm baby vexillologist normcore wayfarers, swag ramps humblebrag selvage butcher four dollar toast tousled four loko photo booth. DIY twee polaroid hella slow-carb art party deep v affogato chambray taxidermy chillwave venmo small batch.</p>                
-                </article>
-                <article class="card card-small">
-                    <img src="assets/smallcard.jpg" alt="">
-                    <h2>card title</h2>
-                    <p>I'm baby vexillologist normcore wayfarers, swag ramps humblebrag selvage butcher four dollar toast tousled four loko photo booth. DIY twee polaroid hella slow-carb art party deep v affogato chambray taxidermy chillwave venmo small batch.</p>               
-                </article>
-            </div>
-            <div class="row">
-                <article class="card card-small">
-                    <img src="assets/smallcard.jpg" alt="">
-                    <h2>card title</h2>
-                    <p>I'm baby vexillologist normcore wayfarers, swag ramps humblebrag selvage butcher four dollar toast tousled four loko photo booth. DIY twee polaroid hella slow-carb art party deep v affogato chambray taxidermy chillwave venmo small batch.</p>               
-                </article>
-                <article class="card card-small">
-                    <img src="assets/smallcard.jpg" alt="">
-                    <h2>card title</h2>
-                    <p>I'm baby vexillologist normcore wayfarers, swag ramps humblebrag selvage butcher four dollar toast tousled four loko photo booth. DIY twee polaroid hella slow-carb art party deep v affogato chambray taxidermy chillwave venmo small batch.</p>               
-                </article>
-                <article class="card card-small">
-                    <img src="assets/smallcard.jpg" alt="">
-                    <h2>card title</h2>
-                    <p>I'm baby vexillologist normcore wayfarers, swag ramps humblebrag selvage butcher four dollar toast tousled four loko photo booth. DIY twee polaroid hella slow-carb art party deep v affogato chambray taxidermy chillwave venmo small batch.</p>               
-                </article>
-            </div>
-            <blockquote class="row">
-                <div class="batman-logo"></div>
-                <h2 class="thin">"Holy Smokes Batman!"</h2>
-                <p class="bold">Robin</p>
-            </blockquote>
-        </section>        
+    <main class="wrapper">
+        <section class="wrapper-container">
+            <article class="card card--big">
+                <picture class="card__image-wrap">
+                    <img class="card__image" src="assets/smallcard.jpg" alt="">
+                </picture>
+                <h2 class="card__title">card title</h2>
+                <p class="card__body">I'm baby vexillologist normcore wayfarers, swag ramps humblebrag selvage butcher four dollar toast tousled four loko photo booth. DIY twee polaroid hella slow-carb art party deep v affogato chambray taxidermy chillwave venmo small batch.</p>                
+            </article>
+            <article class="card card--small">
+                <picture class="card__image-wrap">
+                    <img class="card__image" src="assets/smallcard.jpg" alt="">
+                </picture>
+                <h2 class="card__title">card title</h2>
+                <p class="card__body">I'm baby vexillologist normcore wayfarers, swag ramps humblebrag selvage butcher four dollar toast tousled four loko photo booth. DIY twee polaroid hella slow-carb art party deep v affogato chambray taxidermy chillwave venmo small batch.</p>               
+            </article>
+        </section>
+        <section class="wrapper-container">
+            <article class="card card--small">
+                <picture class="card__image-wrap">
+                    <img class="card__image" src="assets/smallcard.jpg" alt="">
+                </picture>
+                <h2 class="card__title">card title</h2>
+                <p class="card__body">I'm baby vexillologist normcore wayfarers, swag ramps humblebrag selvage butcher four dollar toast tousled four loko photo booth. DIY twee polaroid hella slow-carb art party deep v affogato chambray taxidermy chillwave venmo small batch.</p>               
+            </article>
+            <article class="card card--small">
+                <picture class="card__image-wrap">
+                    <img class="card__image" src="assets/smallcard.jpg" alt="">
+                </picture>
+                <h2 class="card__title">card title</h2>
+                <p class="card__body">I'm baby vexillologist normcore wayfarers, swag ramps humblebrag selvage butcher four dollar toast tousled four loko photo booth. DIY twee polaroid hella slow-carb art party deep v affogato chambray taxidermy chillwave venmo small batch.</p>               
+            </article>
+            <article class="card card--small">
+                <picture class="card__image-wrap">
+                    <img class="card__image" src="assets/smallcard.jpg" alt="">
+                </picture>
+                <h2 class="card__title">card title</h2>
+                <p class="card__body">I'm baby vexillologist normcore wayfarers, swag ramps humblebrag selvage butcher four dollar toast tousled four loko photo booth. DIY twee polaroid hella slow-carb art party deep v affogato chambray taxidermy chillwave venmo small batch.</p>               
+            </article>
+        </section>
+        <blockquote class="blockquote">
+            <picture class="blockquote__logo">
+                <!-- TODO: add batman logo! -->
+            </picture>
+            <h2 class="blockquote__title">"Holy Smokes Batman!"</h2>
+            <p class="blockquote__body">Robin</p>
+        </blockquote>        
     </main>
     <footer>
         <div class="footer__spacing">
@@ -89,6 +99,6 @@
                 </figure>   
             </section>    
         </div>
-    </footer>
+    </footer>    
 </body>
 </html>
