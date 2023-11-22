@@ -41,7 +41,7 @@ nav img {
     height: 15px;
 }
 
-.toggle {
+.nav-container__toggle {
     display: none;
 }
 
@@ -207,13 +207,13 @@ footer {
         order: 1; 
     }
 
-    .toggle {
+    .nav-container__toggle {
         display: flex;
         width: 3rem;
         order: 2; 
     }
 
-    .nav-links {
+    .nav-container__links {
         display: none;
         text-decoration: none;
     }
