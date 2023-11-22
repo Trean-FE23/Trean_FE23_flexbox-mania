@@ -79,37 +79,43 @@ button {
 /* Main section */
 
 .wrapper {
-    margin: 5rem 0;
+    padding:97px 220px 116px 220px;
     display: flex;
     flex-direction: column;
-    max-width: 80vw;
-    margin-inline: auto;
+    flex-wrap: wrap;
+    gap: 33px;
+    justify-content: space-between;
 }
-
 .wrapper-container {
+    width: 100%;
     display: flex;
-    flex: 1;
+    flex-wrap: wrap;
+    gap: 33px;
 }
 
 .card {
+    width: 311px;
+    min-width: 311px;
+    height: auto;
     display: flex;
     flex-direction: column;
-    padding-bottom: 5rem;
     border-bottom: 0.1rem solid gray;
-    margin: 1rem;
+    padding-bottom: 4rem;
 }
 
 .card__image {
-    max-width: auto;
-    max-height: 33vh;
+    width: 100%;
+    height:288px;
 }
 
-.card--small {
-    flex: 1;
+.card__image__big{
+    width: 656px;
+    height: 288px
 }
-
+    
 .card--big {
-    flex: 2;
+    width: 656px;
+    min-width: 311px;
 }
 
 .card__title {
@@ -205,6 +211,21 @@ footer {
 @media (max-width: 600px) {
     .nav-container { 
         padding: 0 1rem;
+    }
+
+    .card__image__big{
+        width: 311px;
+        height: 288px
+    }
+    .wrapper-container{
+        justify-content: center;
+    }
+    .card--big {
+        width: 311px;
+        min-width: 311px;
+    }
+    .wrapper {
+        padding:64px 16px 68px 16px;
     }
 
     .nav-container__logo {
