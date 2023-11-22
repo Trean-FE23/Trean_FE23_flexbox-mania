@@ -158,12 +158,12 @@ footer {
     padding-right: 18vw;
 }
 
-.footer-content {
+.footer__spacing {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-#about-us {
+.about-us {
     max-width:312px;
     font-size: 1rem;
     
@@ -180,15 +180,15 @@ footer {
     line-height: 3rem;
 }
 
-#social-media {
+.social-media {
     font-size: 1rem;
     
 }
-.footer-h2 {
+.social-media__text {
     margin-bottom: 1rem;
     
 }
-.social-icons {
+.social-media__icons {
     display:flex;
     /* justify-content: space-between; */
     gap: 30px;
