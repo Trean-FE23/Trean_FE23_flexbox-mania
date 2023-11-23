@@ -42,7 +42,7 @@ body {
 
 .nav-container__toggle {
     display: none;
-    padding: 24px 0 ;
+    padding: 24px 0;
 }
 
 .nav-container__image {
@@ -80,58 +80,44 @@ body {
 /* Main section */
 
 .wrapper {
-    max-width: 80vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 10rem auto;
+    width: 80vw;
+    margin: 6.25rem auto;
 }
 
 .card-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 2rem;
 }
 
 .card {
-    width: 33%;
-    min-width: 311px;
-    height: auto;
+    width: 311px;
+    min-width: 30%;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     border-bottom: 0.1rem solid gray;
     padding-bottom: 4rem;
+    row-gap: 1rem;
 }
 
 .card--big {
-    width: 66%;
+    width: 656px;
+    min-width: 62%;
 }
 
 .card__image {
-    width: auto;
     height: 288px;
 }
-
-.card__image-wrap {
-    display: flex;
-    max-width: auto;
-}
-
-/* .card__image-big {
-    width: 656px;
-    height: 288px;
-} */
 
 .card__title {
-    margin-top: 1rem;
-    font-size: 2rem;
+    line-height: 1.57rem;
+    font-size: 1.563rem;
 }
 
 .card__body {
-    line-height: 1.7rem; 
-    margin-top: 1rem;
-    font-size: 1rem;
+    line-height: 1.4rem;
+    font-size: 0.875rem;
 }
 
 /* Blockquote for Batman */
@@ -230,24 +216,11 @@ body {
         padding: 0 1rem;
     }
 
-    .card__image-big{
-        width: 311px;
-        height: 288px
-    }
-    .wrapper-container{
-        justify-content: center;
-    }
-    .card--big {
-        width: 311px;
-        min-width: 311px;
-    }
-    .wrapper {
-        padding:64px 16px 68px 16px;
-    }
     .nav-container__toggle-image {
         height: 48px;
         width:50px;
     }
+
     .nav-container__image {
         order: 1; 
     }
@@ -269,15 +242,32 @@ body {
         align-items: center;
     } 
 
-    .row {
+    .card--big {
+        width: 311px;
+    }
+
+    /* .row {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
+    .card__image--big{
+        width: 311px;
+        height: 288px;
+    }
+
+    .wrapper-container{
+        justify-content: center;
+    }
+    
+    .wrapper {
+        padding:64px 16px 68px 16px;
+    }
+
     .blockquote {
         font-size: 25px;
-    }
+    } */
 
     .footer {
         height: 50vh;
