@@ -6,6 +6,8 @@
 
 body {
     font-family: 'Ubuntu';
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 /* .page-container {
@@ -16,8 +18,8 @@ body {
 /* Nav & Header */
 
 .nav-container {
-    padding-right: 10vw;
-    padding-left: 10vw;
+    padding-right: 13.75rem;
+    padding-left: 13.75rem;
     font-size: 16px;
 }
 
@@ -80,7 +82,7 @@ body {
 /* Main section */
 
 .wrapper {
-    width: 80vw;
+   /* width:80vw; */
     margin: 6.25rem auto;
 }
 
@@ -158,8 +160,8 @@ body {
     display:flex;
     justify-content:start;
     height: 30vh;
-    padding: 4.438rem 0 0 10vw;
-    padding-right: 18vw;
+    padding: 4.438rem 0 0 13.75rem;
+    padding-right: 22rem;
 }
 
 .footer__spacing {
